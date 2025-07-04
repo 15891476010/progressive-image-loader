@@ -26,10 +26,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/15891476010/vue-progressive-image-loader.git"
-  },
-  "bugs": {
-    "url": "https://github.com/15891476010/vue-progressive-image-loader/issues"
+    "url": "https://github.com/15891476010/progressive-image-loader.git"
   },
   "homepage": "https://github.com/15891476010/vue-progressive-image-loader#readme",
   "peerDependencies": {
