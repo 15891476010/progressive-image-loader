@@ -1,0 +1,49 @@
+{
+  "name": "vue-progressive-image-loader",
+  "version": "1.0.0",
+  "description": "渐进式图片加载组件，提供平滑的加载体验和骨架屏功能",
+  "type": "module",
+  "main": "dist/index.cjs.js",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "rollup -c",
+    "dev": "rollup -c -w",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "vue",
+    "progressive",
+    "image",
+    "loader",
+    "skeleton",
+    "lazy-loading"
+  ],
+  "author": "张泽",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/15891476010/vue-progressive-image-loader.git"
+  },
+  "bugs": {
+    "url": "https://github.com/15891476010/vue-progressive-image-loader/issues"
+  },
+  "homepage": "https://github.com/15891476010/vue-progressive-image-loader#readme",
+  "peerDependencies": {
+    "vue": "^3.0.0"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^28.0.6",
+    "@rollup/plugin-node-resolve": "^16.0.1",
+    "rollup": "^4.44.2",
+    "rollup-plugin-scss": "^4.0.1",
+    "rollup-plugin-typescript2": "^0.36.0",
+    "rollup-plugin-vue": "^6.0.0",
+    "typescript": "^5.8.3",
+    "vue": "^3.5.17",
+    "vue-loader": "^17.4.2"
+  }
+}
